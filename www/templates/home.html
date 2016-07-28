@@ -1,0 +1,16 @@
+<ion-view view-title="在线支付">
+  <ion-content class="auto-height">
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input type="text" ng-model="amount" placeholder="支付金额(元)">
+      </label>
+    </div>
+    <div class="padding">
+      <button class="button button-block button-positive" ng-click="doPay()">测试支付</button>
+      <button class="button button-block button-positive" ng-click="doRemoteSearch()">FilterBar远程例子</button>
+      <button class="button button-block button-positive" ng-click="doLocalSearch()">FilterBar本地例子</button>
+      <button class="button button-block button-positive" ng-click="doNavbarHide()">自动隐藏导航Bar</button>
+      <button class="button button-block button-positive" ng-click="doAlphaScroll()">首字母检索</button>
+    </div>
+  </ion-content>
+</ion-view>
